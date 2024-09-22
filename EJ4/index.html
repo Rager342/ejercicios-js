@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="correccion.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="diseño.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de calificación</h1>
+        <form name="registro" onsubmit="return validar(this)">
+            <p>Ingresa tu calificación del primer parcialo</p>
+            <input class="cuadro" type="text" name="parcial1" id="parcial1" >
+            <br>
+            <p>Ingresa tu calificación del segundo parcialo</p>
+            <input class="cuadro" type="text" name="parcial2" id="parcial2" >
+            <br>
+            <p>Ingresa tu calificación del tercer parcialo</p>
+            <input class="cuadro" type="text" name="parcial3" id="parcial3" >
+            <br>
+            <p>Ingresa tu calificación del examen final</p>
+            <input class="cuadro" type="text" name="examenf" id="examenf" >
+            <br>
+            <p>Ingresa tu calificación del trabajo final</p>
+            <input class="cuadro" type="text" name="trabajof" id="trabajof" >
+            <br>
+            <br>
+            <input class="boton" type="submit" id="Enviar" value="Enviar"> 
+            <input class="boton" type="reset" id="Reset" value="Reset"> 
+        </form>
+    </div>
+</body>
+</html>

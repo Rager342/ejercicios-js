@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="validaciones.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="diseño.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de utilidades</h1>
+        <form name="registro" onsubmit="return validar(this)">
+            <p>Ingresa tu sueldo</p>
+            <input class="cuadro" type="text" name="sueldo" id="sueldo" >
+            <br>
+            <p>Ingresa cuantos años llevas en la empresa</p>
+            <input class="cuadro" type="text" name="años" id="años" >
+            <br>
+            <br>
+            <input class="boton" type="submit" id="Enviar" value="Enviar"> 
+            <input class="boton" type="reset" id="Reset" value="Reset"> 
+        </form>
+    </div>
+</body>
+</html>
